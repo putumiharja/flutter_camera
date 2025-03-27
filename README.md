@@ -1,16 +1,22 @@
-# flutter_camera
+# Praktikum 1 Flutter Camera
 
-A new Flutter project.
+Berikut hasil dari Latihan Flutter Camera
 
-## Getting Started
+## 1. Take A Picture : 
 
-This project is a starting point for a Flutter application.
+![image alt](https://github.com/putumiharja/flutter_camera/blob/a8b5efc1b5427708adc270cc0c52c2c6766a044e/1.%20Proses%20pengambilan%20gambar.png)
 
-A few resources to get you started if this is your first Flutter project:
+## 2. Display The Picture :
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![image alt](https://github.com/putumiharja/flutter_camera/blob/a8b5efc1b5427708adc270cc0c52c2c6766a044e/2.%20Hasil%20pengambilan%20gambar.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Maksud void async pada praktikum 1
+
+void → Menunjukkan bahwa fungsi main() tidak mengembalikan nilai apa pun.
+async → Menandakan bahwa fungsi ini bersifat asinkron,sehingga dapat menggunakan await di dalamnya.
+
+Mengapa async dibutuhkan?
+
+Fungsi availableCameras() adalah operasi asinkron yang membutuhkan waktu untuk mendapatkan daftar kamera yang tersedia.
+Dengan menggunakan await, kita memastikan bahwa daftar kamera diperoleh sebelum TakePictureScreen dipanggil.
