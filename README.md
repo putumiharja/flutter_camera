@@ -1,4 +1,4 @@
-# Praktikum 1 Flutter Camera
+# Praktikum 1 : Flutter Camera
 
 Berikut hasil dari Latihan Flutter Camera
 
